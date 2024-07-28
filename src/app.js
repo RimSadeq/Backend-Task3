@@ -51,10 +51,7 @@ app.get ('/team' , (req,res) => {
 })
 
 
-
-app.get('*',(reg,res)=> {
-    res.send('404 page not found')
- })
+
 
     app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
